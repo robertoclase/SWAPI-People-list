@@ -30,8 +30,7 @@ class _PeoplePageViewState extends State<PeoplePageView> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Star Wars Characters'),
-        backgroundColor: Colors.black,
-        foregroundColor: Colors.yellow,
+        
       ),
       body: BlocBuilder<PeopleListBloc, PeopleListState>(
         bloc: peopleListBloc,
